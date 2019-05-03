@@ -7,6 +7,7 @@ import 'package:js/js_util.dart';
 @JS()
 external ToastrInterface get toastr;
 
+@JS()
 class ToastrInterface {
   external ToastrNotificationFn get info;
   external ToastrNotificationFn get success;
